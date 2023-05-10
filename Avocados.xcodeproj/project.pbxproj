@@ -29,6 +29,7 @@
 		719248302A0A168E00132159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7192482F2A0A168E00132159 /* Assets.xcassets */; };
 		719248332A0A168E00132159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719248322A0A168E00132159 /* Preview Assets.xcassets */; };
 		7192483D2A0A202E00132159 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192483C2A0A202E00132159 /* Launch Screen.storyboard */; };
+		71D611C52A0B5BD1004E54B7 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D611C42A0B5BD1004E54B7 /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		719248322A0A168E00132159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7192483B2A0A1D0A00132159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7192483C2A0A202E00132159 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		71D611C42A0B5BD1004E54B7 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				7169B7492A0A730A0041CD4B /* RecipeRatingView.swift */,
 				7169B74B2A0A73A10041CD4B /* RecipeCookingView.swift */,
 				7169B74D2A0A740E0041CD4B /* RecipeDetailView.swift */,
+				71D611C42A0B5BD1004E54B7 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				7169B73A2A0A5BAF0041CD4B /* HeaderData.swift in Sources */,
 				7169B73C2A0A5E340041CD4B /* DishesView.swift in Sources */,
 				7169B74C2A0A73A10041CD4B /* RecipeCookingView.swift in Sources */,
+				71D611C52A0B5BD1004E54B7 /* RipeningView.swift in Sources */,
 				7169B7402A0A65490041CD4B /* FactModel.swift in Sources */,
 				7169B73E2A0A62340041CD4B /* FactsView.swift in Sources */,
 				7169B7482A0A6B520041CD4B /* RecipeCardView.swift in Sources */,
