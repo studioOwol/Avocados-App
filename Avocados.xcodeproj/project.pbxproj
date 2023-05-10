@@ -30,6 +30,8 @@
 		719248332A0A168E00132159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719248322A0A168E00132159 /* Preview Assets.xcassets */; };
 		7192483D2A0A202E00132159 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192483C2A0A202E00132159 /* Launch Screen.storyboard */; };
 		71D611C52A0B5BD1004E54B7 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D611C42A0B5BD1004E54B7 /* RipeningView.swift */; };
+		71D611C72A0B5FD9004E54B7 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D611C62A0B5FD9004E54B7 /* RipeningModel.swift */; };
+		71D611C92A0B6021004E54B7 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D611C82A0B6021004E54B7 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		7192483B2A0A1D0A00132159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7192483C2A0A202E00132159 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		71D611C42A0B5BD1004E54B7 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		71D611C62A0B5FD9004E54B7 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		71D611C82A0B6021004E54B7 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 				7169B7392A0A5BAF0041CD4B /* HeaderData.swift */,
 				7169B7412A0A657C0041CD4B /* FactData.swift */,
 				7169B7452A0A6AF90041CD4B /* RecipeData.swift */,
+				71D611C82A0B6021004E54B7 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 				7169B7372A0A5B730041CD4B /* HeaderModel.swift */,
 				7169B73F2A0A65490041CD4B /* FactModel.swift */,
 				7169B7432A0A6A880041CD4B /* RecipeModel.swift */,
+				71D611C62A0B5FD9004E54B7 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,8 +229,10 @@
 			files = (
 				7169B72E2A0A38150041CD4B /* SettingsView.swift in Sources */,
 				7169B74A2A0A730A0041CD4B /* RecipeRatingView.swift in Sources */,
+				71D611C72A0B5FD9004E54B7 /* RipeningModel.swift in Sources */,
 				7192482E2A0A168D00132159 /* ContentView.swift in Sources */,
 				7169B7302A0A382E0041CD4B /* AppView.swift in Sources */,
+				71D611C92A0B6021004E54B7 /* RipeningData.swift in Sources */,
 				7169B72C2A0A37FF0041CD4B /* RipeningStagesView.swift in Sources */,
 				7192482C2A0A168D00132159 /* AvocadosApp.swift in Sources */,
 				7169B72A2A0A37E40041CD4B /* AvocadosView.swift in Sources */,
